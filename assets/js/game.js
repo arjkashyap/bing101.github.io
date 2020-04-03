@@ -2,10 +2,13 @@
 const box = 32;
 // Assets
 const ground = new Image();
-ground.src = "./background.jpg"
+ground.src = "bing101.github.io/assets/images/background.jpg"
 
 const foodImg = new Image();
-foodImg.src = "./food.png";
+foodImg.src = "bing101.github.io/assets/images/profile.png/food.png";
+
+if(!foodImg.onload)
+    console.log("nope")
 
 // Integer score
 let score = 0;
