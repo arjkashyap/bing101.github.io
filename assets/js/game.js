@@ -5,7 +5,7 @@ const ground = new Image();
 ground.src = "bing101.github.io/assets/images/background.jpg"
 
 const foodImg = new Image();
-foodImg.src = "bing101.github.io/assets/images/profile.png/food.png";
+foodImg.src = "bing101.github.io/assets/images/food.png";
 
 if(!foodImg.onload)
     console.log("nope")
